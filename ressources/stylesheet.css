@@ -1,0 +1,89 @@
+@font-face{
+	src: url("fonts-images/shrikhand.ttf");
+}
+
+
+/* Defines the style of the normal buttons. */
+.button {
+	-fx-background-color: #66BB6A;
+	-fx-text-fill: black;
+	-fx-pref-width: 150px;
+}
+
+.menu-button {
+	-fx-background-color: #66BB6A;
+}
+
+.root {
+	-fx-background-color: #A5D6A7;
+}
+
+.vbox {
+	-fx-background-color: #795548;
+	-fx-pref-width: 200px;
+    -fx-font-size: 15px;
+}
+
+.hbox {
+	-fx-background-color: #795548;
+	-fx-pref-height: 70px;
+}
+
+#invalidLogin{
+	-fx-text-fill: red;
+}
+
+#headingText{
+	-fx-font-family: "shrikhand", cursive;
+	-fx-font-size: 30px;
+}
+
+#headingAdmin{
+	-fx-font-family: "shrikhand", cursive;
+	-fx-font-size: 24px;
+}
+
+#centerBox{
+	-fx-background-color: #A5D6A7;
+}
+
+#transButton{
+	-fx-background-color: Transparent;
+	/*-fx-width: 5px;
+	-fx-height: 5px;*/
+
+}
+
+/*for info pane */
+.infobox{
+	-fx-background-color: white;
+}
+
+
+
+.date-picker-popup .button {
+   -fx-min-width: 35px;
+   -fx-max-width: 35px;
+   -fx-background-color: Transparent;
+}
+
+/*.customDatepicker > .arrow-button > .arrow {
+    -fx-background-color: black;
+}*/
+
+/*.menu-button .label {
+	-fx-min-width:50px; 
+}*/
+
+/*.menu-button:showing .label{
+	-fx-padding: 0;
+	-fx-min-width: 200px;
+}*/
+
+
+/*.menu-item .label{
+	-fx-padding:0;
+	-fx-min-width: 150px;
+	-fx-background-color: yellow;   
+
+}*/
